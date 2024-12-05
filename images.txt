@@ -6,6 +6,9 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 #--platform=linux/amd64 xiaoyaliu/alist
 
+#--platform=linux/arm64 timescale/timescaledb:latest-pg14
+#--platform=linux/amd64 timescale/timescaledb:latest-pg14
 
---platform=linux/arm64 timescale/timescaledb:latest-pg14
---platform=linux/amd64 timescale/timescaledb:latest-pg14
+
+--platform=linux/arm64 emqx/emqx:5.6.1
+--platform=linux/amd64 emqx/emqx:5.6.1
